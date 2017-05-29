@@ -14,5 +14,5 @@
 Route::get('/{slug?}', function ($slug = 'home') {
   $storyblok = new \Storyblok\Client('W1gCqZYU7zULdjOvzNmwCAtt');
   $data = $storyblok->getStoryBySlug($slug)->getStoryContent();
-  return view('welcome', ['story' => (object)$data['story']]);
+  return view('index', ['story' => (object)$data['story']]);
 });
