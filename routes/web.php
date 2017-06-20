@@ -12,7 +12,7 @@
 */
 
 Route::get('/{slug?}', function ($slug = 'home') {
-  $storyblok = new \Storyblok\Client('W1gCqZYU7zULdjOvzNmwCAtt');
+  $storyblok = new \Storyblok\Client('xs8KfuZGvQVOM824AFUQDQtt');
   $data = $storyblok->getStoryBySlug($slug)->getStoryContent();
   return view('index', ['story' => (object)$data['story']]);
 });
