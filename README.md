@@ -1,20 +1,14 @@
-# Source for: "add a headless CMS to laravel in 5 minutes" - Larablok
+# Laravel and Stroyblok
 
-In this short [article](https://www.storyblok.com/tp/add-a-headless-cms-to-laravel-in-5-minutes), we will show you how you can use the headless CMS Storyblok in combination with the PHP Framework for Web Artisans “Laravel”. At the end of this [article](https://www.storyblok.com/tp/add-a-headless-cms-to-laravel-in-5-minutes), you will have a Laravel Application which renders components according to their nesting in Storyblok.
+## This repo is deprecated
+This repository references an old version of Laravel.
+The code is no longer maintained.
 
-## Start this project
+## The new updated Storyblok + Laravel repo
 
-### Checkout this project
-```
-git clone https://github.com/storyblok/larablok
-```
+We created a new repository with the latest Laravel version.
+The repository contains the source code of our Ultimate Tutorial Series for Laravel
 
-### Install dependencies
-```
-composer install
-```
+The new repository: https://github.com/storyblok/laravel-ultimate-tutorial
+The Ultimate Tutorial series: https://www.storyblok.com/tp/add-a-headless-cms-to-laravel-in-5-minutes
 
-### Start Laravel development Server
-```
-php artisan serve
-```
